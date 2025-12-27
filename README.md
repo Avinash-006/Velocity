@@ -54,21 +54,11 @@ Velocity is a streamlined AI image generation application powered by Stable Diff
 - The initial model inference might be slow wait for 2-4 minutes for the first image to generate as the model needs to be loaded into the memory the later images will be faster
 
   ## Benchmarks
-  - Device: IPad A16
-  - Prompt: Car
-  - Steps: 25
-  - Guidance: 5.5
-  - Model: Epicrealism_Se2_Bit6 (6-Bit 512x512 model)
-  - Time Taken: 18.7 Sec
-  - Link: [https://drive.google.com/uc?export=view?id=1_iEFI67qN1R4hkc0Xz7YNZOgkGDJk9](https://drive.google.com/uc?export=view&id=1_iEFEl67qN1R4Rhkc0Xz7YNZOgkGDJk9)
- 
-  - Device: IPad A16
-  - Prompt: Ultra-realistic cimematic night scene: a lone character in a neon-lit cyberpunk alley during rain, wet reflective streets, glowing signs, soft volumetric fog, shallow depth of field, sharp facial focus, realisitc skin texture, cinematic lighting, 85mm lens look, HDR, film grain, 8k detail.
-  - Steps: 40
-  - Guidance: 5
-  - Model: Epicrealism_Se2_Bit6 (6-Bit 512x512 model)
-  - Time Taken: 27.89 Sec
-  - Link: [https://drive.google.com/uc?export=view&id=13_JFcGm5TnsrNC49sDRF2OuI2KnjMhKR](https://drive.usercontent.google.com/download?id=13_JFcGm5TnsrNC49sDRF2OuI2KnjMhKR&export=view&authuser=0)
+
+| Device | Prompt | Steps | Guidance | Model | Time | Generated Image |
+|--------|--------|-------|----------|-------|------|-----------------|
+| iPad A16 | Car | 25 | 5.5 | Epicrealism_Se2_Bit6 (6-Bit 512x512) | 18.7s | ![Car Generation](https://drive.google.com/uc?export=view&id=1_iEFEl67qN1R4Rhkc0Xz7YNZOgkGDJk9) |
+| iPad A16 | Ultra-realistic cinematic night scene: a lone character in a neon-lit cyberpunk alley during rain, wet reflective streets, glowing signs, soft volumetric fog, shallow depth of field, sharp facial focus, realistic skin texture, cinematic lighting, 85mm lens look, HDR, film grain, 8k detail. | 40 | 5.0 | Epicrealism_Se2_Bit6 (6-Bit 512x512) | 27.89s | ![Cyberpunk Scene](https://drive.google.com/uc?export=view&id=13_JFcGm5TnsrNC49sDRF2OuI2KnjMhKR) |
 
 ## Future Fixes
 - Proper Download and Extract Features for models
