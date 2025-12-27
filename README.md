@@ -60,6 +60,12 @@ Velocity is a streamlined AI image generation application powered by Stable Diff
 | iPad A16 | Car | 25 | 5.5 | Epicrealism_Se2_Bit6 (6-Bit 512x512) | 18.7s | ![Car Generation](https://drive.google.com/uc?export=view&id=1_iEFEl67qN1R4Rhkc0Xz7YNZOgkGDJk9) |
 | iPad A16 | Ultra-realistic cinematic night scene: a lone character in a neon-lit cyberpunk alley during rain, wet reflective streets, glowing signs, soft volumetric fog, shallow depth of field, sharp facial focus, realistic skin texture, cinematic lighting, 85mm lens look, HDR, film grain, 8k detail. | 40 | 5.0 | Epicrealism_Se2_Bit6 (6-Bit 512x512) | 27.89s | ![Cyberpunk Scene](https://drive.google.com/uc?export=view&id=13_JFcGm5TnsrNC49sDRF2OuI2KnjMhKR) |
 
+## Known Bugs
+- The Generated Image gets cropped
+- the download manager only unzips VAEDecoder Folder (Currently working on it)
+- The Upscaler doesnt show up after downloaded
+- Lantent View doesnt work
+
 ## Future Fixes
 - Proper Download and Extract Features for models
 - Improved Stability
