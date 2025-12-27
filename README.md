@@ -49,10 +49,15 @@ Velocity is a streamlined AI image generation application powered by Stable Diff
 3. Build and run the project
 
 ## Notes
-- The current implementation uses simulated Stable Diffusion for demonstration
-- For production use, integrate with actual Stable Diffusion APIs or local models
 - Model downloads are simulated for the demo version
-- Future updates will include real Stable Diffusion integration
+- To use click on open link in model management, Download the model unzip and place it in StableDiffusionModels Folder in Velocity
+
+##Future Fixes
+- Proper Download and Extract Features for models
+- Improved Stability
+- Proper Upscaling
+- Proper Latent View
+- Optimization
 
 ## Tips for Best Results
 - Be specific and detailed in your prompts
