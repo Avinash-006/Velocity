@@ -33,7 +33,7 @@ Velocity is a streamlined AI image generation application powered by Stable Diff
 5. Manage storage by deleting unused models
 
 ## Technical Details
-- **Framework**: SwiftUI
+- **Framework**: SwiftUI, Core ML
 - **Image Generation**: Stable Diffusion (simulated for demo)
 - **Storage**: Local file system for model management
 - **UI**: Modern, intuitive interface with focus on image creation
